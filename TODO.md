@@ -33,7 +33,7 @@
 
 ## Game Logic
 
-[] Grid
+[x] Grid
 [] New Game
 [] Reveal tile
 [] Flag tile
