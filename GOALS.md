@@ -65,6 +65,8 @@ Go for an Act II Inscryption type of neon vibe with pixel art
 
 Grid:
 - 24 wide x 20 high
+- Width: 172 px 384 px 64 px
+- Height: 20 px 320 px 20 px
 
 New Game:
 - Upon loading a new game, display tiles

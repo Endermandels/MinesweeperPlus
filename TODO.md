@@ -1,14 +1,11 @@
-# CLOSED
-
-# OPEN
 ## Main Menu
 
-[] (BUTTON) Play 
+[x] (BUTTON) Play 
 [] (BUTTON) Settings 
-[] (BUTTON) Quit 
+[x] (BUTTON) Quit 
 
 ## Game
-[] (KEY) ESC 
+[x] (KEY) ESC
 [] (BUTTON LMB) Tile 
 [] (BUTTON RMB) Tile
 
@@ -25,10 +22,10 @@
 [] (LABEL) Time Spent
 
 ## Pause Menu
-[] (KEY) ESC
+[x] (KEY) ESC
 [] (BUTTON) Settings
-[] (BUTTON) Main Menu
-[] (BUTTON) Return
+[x] (BUTTON) Main Menu
+[x] (BUTTON) Return
 
 ## Settings Menu
 [] (SLIDER) Volume
@@ -43,6 +40,5 @@
 [] Losing
 [] Winning
 
-# BACKLOG
-
+## MISC
 
