@@ -2,13 +2,18 @@
 
 [ext_resource type="Script" path="res://scripts/my_game.gd" id="1_1j5vi"]
 [ext_resource type="PackedScene" uid="uid://bo4rtdh66l0qf" path="res://prefabs/pause_menu.tscn" id="2_ymebw"]
-[ext_resource type="Texture2D" uid="uid://x3rabv2erve1" path="res://assets/images/grid_tile.png" id="3_aq185"]
+[ext_resource type="Texture2D" uid="uid://ciki2g8ntvemm" path="res://assets/images/tile.png" id="3_8p5xc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gutt7"]
-texture = ExtResource("3_aq185")
+texture = ExtResource("3_8p5xc")
 0:0/0 = 0
+1:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_dmdsn"]
+custom_data_layer_0/name = "is_flagged"
+custom_data_layer_0/type = 1
+custom_data_layer_1/name = "is_mine"
+custom_data_layer_1/type = 1
 sources/1 = SubResource("TileSetAtlasSource_gutt7")
 
 [node name="MyGame" type="Node" node_paths=PackedStringArray("grid")]

@@ -6,7 +6,7 @@
 
 ## Game
 [x] (KEY) ESC
-[] (BUTTON LMB) Tile 
+[x] (BUTTON LMB) Tile 
 [] (BUTTON RMB) Tile
 
 ## Win Screen
