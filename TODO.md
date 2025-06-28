@@ -7,14 +7,14 @@
 ## Game
 [x] (KEY) ESC
 [x] (BUTTON LMB) Tile 
-[] (BUTTON RMB) Tile
+[x] (BUTTON RMB) Tile
 
 ## Win Screen
 [] (ANIMATION) Rainbow Panel Border
-[] (LABEL) YOU WIN
-[] (LABEL) Time Spent
-[] (BUTTON) Play Again
-[] (BUTTON) Exit
+[x] (LABEL) YOU WIN
+[x] (LABEL) Time Spent
+[x] (BUTTON) Play Again
+[x] (BUTTON) Exit
 
 ## Lose Screen
 [] (ANIMATION) Pulsing Red Panel Border
@@ -37,9 +37,13 @@
 [] New Game
 [] Reveal tile
 [x] Flag tile
-[] BUG: Flagging is inconsistent
 [] Losing
-[] Winning
+[x] Winning
 
-## MISC
+## OPEN BUGS
 
+[] Optimize populating grid
+
+## CLOSED BUGS
+
+[x] Flagging is inconsistent

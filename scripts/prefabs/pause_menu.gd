@@ -4,6 +4,7 @@ class_name PauseMenu
 # Settings 
 @export var esc_to_open: bool ## If [code]true[/code], pressing ESC will toggle the pause menu
 
+# Internal Nodes
 @export_group("Internal Nodes")
 @export var settings_button: Button ## TODO: Implement
 @export var main_menu_button: Button

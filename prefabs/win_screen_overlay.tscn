@@ -1,0 +1,67 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyly2t71atplv"]
+
+[ext_resource type="Texture2D" uid="uid://bjr4yw7366o2u" path="res://assets/images/clock.png" id="1_dy51a"]
+[ext_resource type="Script" path="res://scripts/prefabs/win_screen_overlay.gd" id="1_sk5t7"]
+
+[node name="WinScreenOverlay" type="Control" node_paths=PackedStringArray("reset_button", "exit_button", "time_label")]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_sk5t7")
+reset_button = NodePath("PanelContainer/VBoxContainer2/ResetButton")
+exit_button = NodePath("PanelContainer/VBoxContainer2/ExitButton")
+time_label = NodePath("PanelContainer/VBoxContainer/TimeStatsLabel")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -8.0
+offset_top = -12.0
+offset_right = 608.0
+offset_bottom = 332.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_constants/separation = 17
+
+[node name="YouWinLabel" type="Label" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 48
+text = "
+YOU WIN"
+horizontal_alignment = 1
+
+[node name="TimeStatsLabel" type="Label" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+text = "        49:29"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/separation = 15
+
+[node name="ResetButton" type="Button" parent="PanelContainer/VBoxContainer2"]
+layout_mode = 2
+text = "Play Again"
+
+[node name="ExitButton" type="Button" parent="PanelContainer/VBoxContainer2"]
+layout_mode = 2
+text = "Exit"
+
+[node name="EmptyLabel" type="Label" parent="PanelContainer/VBoxContainer2"]
+layout_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(229, 174)
+texture = ExtResource("1_dy51a")

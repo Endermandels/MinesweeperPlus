@@ -1,6 +1,7 @@
 extends Node
 class_name MainMenu
 
+# Internal Nodes
 @export_group("Internal Nodes")
 @export var play_button: Button
 @export var settings_button: Button
