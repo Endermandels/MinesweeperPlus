@@ -36,7 +36,8 @@
 [x] Grid
 [] New Game
 [] Reveal tile
-[] Flag tile
+[x] Flag tile
+[] BUG: Flagging is inconsistent
 [] Losing
 [] Winning
 
